@@ -3,11 +3,12 @@ The Numatray is a 4-key macropad and fountain pen rest project.
 
 # Completed example
 
-coming soon.  
+![img](https://github.com/user-attachments/assets/d6d0ddae-0540-4c3f-b66f-84bec7f0e82d)  
 
 # Layout
 
-coming soon.  
+![img](https://github.com/user-attachments/assets/cdb7640c-1a0b-477c-9767-9250949a83f2)  
+![img](https://github.com/user-attachments/assets/77d9c817-3078-41a9-a1f0-8e89f3b0c74b)  
 
 # Support software
 
