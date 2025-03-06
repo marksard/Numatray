@@ -3,6 +3,8 @@ The Numatray is a 4-key macropad and fountain pen rest project.
 
 # Completed example
 
+![IMGP8970](https://github.com/user-attachments/assets/362c7484-fc15-40f9-850a-7ff44ac76264)
+
 ![img](https://github.com/user-attachments/assets/d6d0ddae-0540-4c3f-b66f-84bec7f0e82d)  
 
 # Layout
@@ -17,4 +19,4 @@ https://github.com/marksard/qmk_firmware/tree/own_build/keyboards/marksard/numat
 
 # Build guide
 
-coming soon.  
+https://github.com/marksard/Numatray/blob/main/documents/buildguide.md
