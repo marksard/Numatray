@@ -12,18 +12,18 @@
 |-|M2 4mm|4||
 |-|Rubber Feet|4||
 |-|MX Switches|4|As you like|
-|-|RP2040 zero|1||
-|-|MAC 8 Conthrough 2.5mm (コンスルー)|2|9pin|
+|-|RP2040 zero|1|（同梱しないキットもあります）|
+|-|MAC 8 Conthrough 2.5mm (コンスルー) |2|（同梱しないキットもあります）9pin以上のものが2つ必要です|
 
 ## Installation
 
 1. 本体
-    1. プレートにスイッチを差し込みます。
+    1. プレートにスイッチを差し込みます。プレートは細く華奢なため、スイッチをプレートから取り外す場合はスイッチ側のプレートにひっかかっている爪を押し込みながら取ってください。
     1. スイッチのピンが曲がっていないか、向きが間違っていないか注意して、スイッチのピンをPCBに差し込んでください。
     1. スイッチをPCBにはんだ付けしてください。
 
 1. RP2040
-    1. MAC 8 Conthrough 2.5mmのピンの向きに注意して、RP2040 zeroと、MAC 8 Conthrough 2.5mmをはんだ付けしてください。リセットボタンとブートボタンの反対側に取り付けてください。（写真参照）
+    1. MAC 8 Conthrough 2.5mmのピンの向きに注意して、RP2040 zeroと、MAC 8 Conthrough 2.5mmをはんだ付けしてください。リセットボタンとブートボタンの反対側に取り付けてください。（写真参照。同梱していない場合は9pinになるようにカットして取り付けてください）
     1. 本体ユニットにRP2040ユニットを差し込んでください。
     1. PCと接続し、認識されることを確認してください（標準添付のRP2040にはファームウェアは書き込み済みです）
 
@@ -57,30 +57,20 @@ EC11/EC10シリーズのロータリーエンコーダーも取り付け可能�
 
 ## Edit the keymap
 
-Remap-compatible firmware has already been written to this PCB.  
-You can change the keymap by accessing the following URL.  
-
 以下のURLにアクセスし、キーマップを変更出来ます。  
 
 [remap](https://remap-keys.app/)
 
 ## Firmware binary file
 
-You can update the firmware by accessing the following URL.  
-Usually it will not be necessary to do so.  
-
-以下のURLにアクセスし、最新のファームウェアをアップデート出来ます。通常はそれを行う必要はないでしょう。  
+以下のURLに最新のファームウェアがあります（RP2040 zeroが付属しているものは基本ファームウェアを書き換える必要はありません）  
+下記のブートローダーモードの操作を行って、PCにRP2040のフォルダが見えたら、圧縮ファイルから取り出したmarksard_numatray_via.uf2ファイルをコピーしてください。    
 
 [firmware](https://github.com/marksard/qmk_firmware_hex/releases)
 
 ## Bootloader Mode
 
 ### Method 1 (方法その1)
-
-一番左のキーを押下しながら、PCと接続します。  
-
-
-### Method 2 (方法その2)
 
 Connect the keyboard to the PC and operate the tact switch attached to the keyboard in the following order:
 
